@@ -1,0 +1,6 @@
+framework module Sequre {
+  umbrella header "Sequre-umbrella.h"
+
+  export *
+  module * { export * }
+}

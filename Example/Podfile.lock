@@ -1,0 +1,16 @@
+PODS:
+  - Sequre (0.1.0)
+
+DEPENDENCIES:
+  - Sequre (from `../`)
+
+EXTERNAL SOURCES:
+  Sequre:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Sequre: 9888bba74f3657a5a46875e7181c26c9c6fe82df
+
+PODFILE CHECKSUM: 3f127de7f7d10e3291ac07d39d5507468ea501bd
+
+COCOAPODS: 1.12.1

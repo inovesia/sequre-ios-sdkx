@@ -1,0 +1,14 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'Sequre_Example' do
+  pod 'Sequre', :path => '../'
+  pod 'Alamofire', '~> 5.5'
+  pod 'TensorFlowLiteSwift'
+  pod 'TensorFlowLiteTaskVision'
+  
+  target 'Sequre_Tests' do
+    inherit! :search_paths
+  end
+end
